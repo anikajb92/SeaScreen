@@ -42,8 +42,8 @@ function NavBar() {
   const classes = styles()
   return (
     <Toolbar position="sticky" color="rgba(0,0,0,0.87)" className={classes.bar}>
-      <img src={logo} className={classes.logo}/>
-      <img src={logoMobile} className={classes.menuItem}/>
+      {/* <img src={logo} className={classes.logo}/>
+      <img src={logoMobile} className={classes.menuItem}/> */}
       <Typography variant="h6" className={classes.menuItem}>
         About
       </Typography>
